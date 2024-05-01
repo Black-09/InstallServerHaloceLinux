@@ -1,12 +1,15 @@
 # Instalar Servidor Sapp de Halo CE en Ubuntu 20.4 
 
-[![standard-readme compliant]
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)]()
 
-Instalar el escritorio de linux en vps Ubuntu 20.4 y usar RealVNC Viewer para ingresar remotamente.
+Instalar el escritorio de linux en una vps con Ubuntu 20.4 y usar RealVNC Viewer para ingresar remotamente.
 los scripts se deben inicializar en modo super usuario que se caracteriza por salir a un cosatado del nombre del usuario con este simbolo root#
 tambien debemos de darle permisos a estos scripts para que puedan ser ejecutados.
-a continuacion los comandos.
 
+## Programas necesarios
+- [WinSCP](https://winscp.net/eng/download.php) Gestor FTP
+- [VNC-Viewer](https://www.realvnc.com/es/connect/download/viewer/windows/) conexión remota que permite ver el escritorio de un sistema a través de la red en otro equipo
+  
 ## Comando para darle todos los permisos a los scripts
 un ejemplo chmod 777 [nombre_de_tu_archivo.sh]
 ```sh
